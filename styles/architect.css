@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.work-sans-font> {
+.work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -145,9 +145,60 @@ main > section{
     .sponsor-company{
         filter: grayscale(100%);
     }
+    .features{
+        gap: 140px;
+    }
+
+    #feature-section-title{
+        border-left: 5px solid  #FF900E;
+        padding-left: 21px;
+    }
+    .feauture-card{
+        padding: 30px;
+        box-shadow: 0 4px 30px 0 rgba(0 , 0 , 0, 0.06);
+        margin-bottom: 20px;
+        border-radius:8px ;
+    }
+    .feature-card .feature-title{
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    #experience-badge{
+        padding: 45px 42px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    #experience-year{
+        font-size: 4rem;
+        font-weight: 700;
+
+    }
+    .feature-architect img{
+        width: 100%;
+    }
+    .footer{
+        width: 1440px;
+        height: 100px;
+         background-color: #FFF4E7;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+         }
+    .last{
+        color: #727272;
+        font-size: 1.25rem;
+       
+    }
 /* responsive haeder */
 @media screen  and (max-width:576px) {
-    .navbar , .nav-links, .teams{
+    .navbar , .nav-links, .teams, .features{
         flex-direction: column;
     }
 
@@ -161,6 +212,9 @@ main > section{
     .our-features{
         margin-left: 20px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     
 }
 @media screen and (min-width:576px) and (max-width:992px) {
